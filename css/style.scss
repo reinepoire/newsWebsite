@@ -1,0 +1,346 @@
+/* fredoka-one-regular - latin */
+@font-face {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/fredoka-one-v8-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/fredoka-one-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/fredoka-one-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/fredoka-one-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/fredoka-one-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/fredoka-one-v8-latin-regular.svg#FredokaOne') format('svg'); /* Legacy iOS */
+}
+/* quicksand-regular - latin */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/quicksand-v21-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/quicksand-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/quicksand-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/quicksand-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/quicksand-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/quicksand-v21-latin-regular.svg#Quicksand') format('svg'); /* Legacy iOS */
+  }
+  /* quicksand-600 - latin */
+  @font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/quicksand-v21-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/quicksand-v21-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/quicksand-v21-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/quicksand-v21-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/quicksand-v21-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/quicksand-v21-latin-600.svg#Quicksand') format('svg'); /* Legacy iOS */
+  }
+$font : "Quicksand";
+$brand: "Fredoka One";
+$home : #4B89DA;
+$lifestyle: #967ADA;
+$food: #D670AC;
+
+// .flex {
+//     display: flex;
+//     justify-content: space-between;
+// }
+// .bold {
+//     font-weight: bold;
+// }
+// *{
+//     box-sizing: border-box;
+// }
+img {
+    width: 100%;
+    height: auto;
+}
+// figure {
+//     margin: 0;
+// }
+ body {
+     font-family: $font;
+    //  display: flex;
+    //  flex-wrap: wrap;
+     margin: 0;
+     header {
+        //  flex-basis: 100%;
+        padding: 1% 0% 1% 20%!important;
+        //  padding-top: 1%;
+        //  padding-right: 0%;
+        //  padding-bottom: 1%;
+        //  padding-left: 20%;
+         background-color: white;
+        //  position: sticky;
+        //  align-self: flex-start;
+        //  top: 0;
+        .md-form input[type="text"]:not(.browser-default):focus:not([readonly]){
+            border-bottom: 1px solid $home!important;
+            box-shadow: 0 1px 0 0 $home!important;
+        }
+     }
+     nav {
+        //  flex-basis: 15%;
+         background-color: white;
+        position: sticky;
+        align-self: flex-start;
+        top: 0;
+     }
+     main {
+        //  display: flex;
+        //  justify-content: space-between;
+        //  flex-basis: 85%;
+        //  padding-left:5%;
+         background: rgb(244,246,249);
+         background: linear-gradient(135deg, rgba(244,246,249,1) 0%, rgba(240,248,255,1) 100%);
+         border-top-left-radius: 20px;
+        //  aside {
+        //      flex-basis: 25%;
+        //  }
+        //  div.content {
+        //      flex-basis: 70%;
+        //  }
+     }
+ }
+
+ nav {
+         text-align: center;
+         h1 {
+             font-family: $brand;
+      
+         }
+        //  ul {
+        //     //  list-style-type: none;
+        //     //  padding: 0;
+        //     //  width: 65%;
+        //     //  margin: auto;
+        //  }
+         li {
+             padding-bottom: 1rem;
+             align-items: center;
+         }
+         i {
+             color: white;
+             padding: .5rem;
+             border-radius: 25%;
+         }
+         a{
+            //  flex-basis: 50%;
+             text-align: left;
+             text-decoration: none;
+         }
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// nav {
+//     text-align: center;
+//     h1 {
+//         font-family: $brand;
+        
+//     }
+//     ul {
+//         list-style-type: none;
+//         padding: 0;
+//         width: 65%;
+//         margin: auto;
+//     }
+//     li {
+//         padding-bottom: 1rem;
+//         align-items: center;
+//     }
+//     i {
+//         color: white;
+//         padding: .5rem;
+//         border-radius: 25%;
+//     }
+//     a{
+//         flex-basis: 50%;
+//         text-align: left;
+//         text-decoration: none;
+//     }
+// }
+
+.card.card-cascade.wider {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+// CARTES DANS ARTICLE DETAILLE 
+.card.card-cascade.wider {
+    background-color: transparent;
+    box-shadow: none;
+}
+.card {
+    font-weight: 400;
+    border: 0;}
+
+    .card.card-cascade.wider .view.view-cascade {
+        z-index: 2;
+    }
+    .card.card-cascade .view.view-cascade {
+        border-radius: .25rem;
+        box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    }
+    .view {
+        position: relative;
+        overflow: hidden;
+        cursor: default;
+    }
+    .view img, .view video {
+        position: relative;
+        display: block;
+    }
+    .overlay .mask {
+        opacity: 0;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+    .view .mask {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-attachment: fixed;
+    }
+
+    .card.card-cascade.wider.reverse .card-body.card-body-cascade {
+        z-index: 3;
+        margin-top: -1rem;
+        border-radius: .25rem;
+        -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+        box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    }
+    .card.card-cascade.wider .card-body.card-body-cascade {
+        z-index: 1;
+        margin-right: 4%;
+        margin-left: 4%;
+        background: #fff;
+        border-radius: 0 0 .25rem .25rem;
+        -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    }
+// CARTE ARTICLE DETAILLE 
+
+.chip {
+    display: inline-block;
+    // height: 32px;
+    padding: 0 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    // font-size: 13px;
+    // font-weight: 500;
+    // line-height: 32px;
+    // color: rgba(0,0,0,0.6);
+    cursor: pointer;
+    // background-color: #eceff1;
+    // border-radius: 16px;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.waves-effect {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent; }
+
+    .chip img {
+        float: left;
+        width: 32px;
+        height: 32px;
+        margin: 0 8px 0 -12px;
+        border-radius: 50%; }
+
+
+    
+        .back-to-top {
+            position: fixed;
+            bottom: 25px;
+            right: 0;
+            display: none;
+            z-index: 60;
+        }
+
+
+
+
+
+
+ .home {
+     color: $home;
+     i {
+         background-color: $home;
+     }
+     a {
+         color: $home;
+     }
+ }
+ .lifestyle {
+     color: $lifestyle;
+     i{
+         background-color: $lifestyle;
+     }
+     a {
+         color: $lifestyle;
+     }
+ }
+ .food {
+     color: $food;
+     i{
+         background-color: $food;
+     }
+     a {
+         color: $food;
+     }
+ }
+
+// section {
+//     flex-wrap: wrap;
+//     article {
+//     margin: 0 .5rem 0 0;
+//     background-color: white;
+//     border-radius: 10px;
+//     padding: 1rem;
+//     figure {
+//         flex-basis: 60%;
+//     }
+//     img {
+//         border-radius: 10px;
+//     }
+// }
+// }
+
+// section.col-3 {
+//     article {
+//         flex-basis: 25%;
+//         margin-bottom: 1rem;
+//     }
+// }
+// section>h1 {
+//     flex-basis: 100%;
+//     width: 100%;
+// }

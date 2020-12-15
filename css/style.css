@@ -1,0 +1,242 @@
+/* fredoka-one-regular - latin */
+@font-face {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fredoka-one-v8-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/fredoka-one-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/fredoka-one-v8-latin-regular.woff2") format("woff2"), url("../fonts/fredoka-one-v8-latin-regular.woff") format("woff"), url("../fonts/fredoka-one-v8-latin-regular.ttf") format("truetype"), url("../fonts/fredoka-one-v8-latin-regular.svg#FredokaOne") format("svg");
+  /* Legacy iOS */
+}
+
+/* quicksand-regular - latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/quicksand-v21-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/quicksand-v21-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/quicksand-v21-latin-regular.woff2") format("woff2"), url("../fonts/quicksand-v21-latin-regular.woff") format("woff"), url("../fonts/quicksand-v21-latin-regular.ttf") format("truetype"), url("../fonts/quicksand-v21-latin-regular.svg#Quicksand") format("svg");
+  /* Legacy iOS */
+}
+
+/* quicksand-600 - latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/quicksand-v21-latin-600.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/quicksand-v21-latin-600.eot?#iefix") format("embedded-opentype"), url("../fonts/quicksand-v21-latin-600.woff2") format("woff2"), url("../fonts/quicksand-v21-latin-600.woff") format("woff"), url("../fonts/quicksand-v21-latin-600.ttf") format("truetype"), url("../fonts/quicksand-v21-latin-600.svg#Quicksand") format("svg");
+  /* Legacy iOS */
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Quicksand";
+  margin: 0;
+}
+
+body header {
+  padding: 1% 0% 1% 20% !important;
+  background-color: white;
+}
+
+body header .md-form input[type="text"]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid #4B89DA !important;
+  -webkit-box-shadow: 0 1px 0 0 #4B89DA !important;
+          box-shadow: 0 1px 0 0 #4B89DA !important;
+}
+
+body nav {
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  top: 0;
+}
+
+body main {
+  background: #f4f6f9;
+  background: linear-gradient(135deg, #f4f6f9 0%, aliceblue 100%);
+  border-top-left-radius: 20px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav h1 {
+  font-family: "Fredoka One";
+}
+
+nav li {
+  padding-bottom: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav i {
+  color: white;
+  padding: .5rem;
+  border-radius: 25%;
+}
+
+nav a {
+  text-align: left;
+  text-decoration: none;
+}
+
+.card.card-cascade.wider {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.card.card-cascade.wider {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.card {
+  font-weight: 400;
+  border: 0;
+}
+
+.card.card-cascade.wider .view.view-cascade {
+  z-index: 2;
+}
+
+.card.card-cascade .view.view-cascade {
+  border-radius: .25rem;
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.view {
+  position: relative;
+  overflow: hidden;
+  cursor: default;
+}
+
+.view img, .view video {
+  position: relative;
+  display: block;
+}
+
+.overlay .mask {
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.view .mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.card.card-cascade.wider.reverse .card-body.card-body-cascade {
+  z-index: 3;
+  margin-top: -1rem;
+  border-radius: .25rem;
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card.card-cascade.wider .card-body.card-body-cascade {
+  z-index: 1;
+  margin-right: 4%;
+  margin-left: 4%;
+  background: #fff;
+  border-radius: 0 0 .25rem .25rem;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.chip {
+  display: inline-block;
+  padding: 0 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.waves-effect {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.chip img {
+  float: left;
+  width: 32px;
+  height: 32px;
+  margin: 0 8px 0 -12px;
+  border-radius: 50%;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 0;
+  display: none;
+  z-index: 60;
+}
+
+.home {
+  color: #4B89DA;
+}
+
+.home i {
+  background-color: #4B89DA;
+}
+
+.home a {
+  color: #4B89DA;
+}
+
+.lifestyle {
+  color: #967ADA;
+}
+
+.lifestyle i {
+  background-color: #967ADA;
+}
+
+.lifestyle a {
+  color: #967ADA;
+}
+
+.food {
+  color: #D670AC;
+}
+
+.food i {
+  background-color: #D670AC;
+}
+
+.food a {
+  color: #D670AC;
+}
+/*# sourceMappingURL=style.css.map */
